@@ -1,41 +1,18 @@
-# Next.js on Netlify Platform Starter
+# thothscribe (Thoth-Quills-API)
 
-[Live Demo](https://nextjs-platform-starter.netlify.app/)
+Short description: Thoth-Quills-API is an API for managing and publishing quills and notes.
 
-A modern starter based on Next.js 14 (App Router), Tailwind, and [Netlify Core Primitives](https://docs.netlify.com/core/overview/#develop) (Edge Functions, Image CDN, Blob Store).
+Repository: https://github.com/Jayrobert77/thothscribe
 
-In this site, Netlify Core Primitives are used both implictly for running Next.js features (e.g. Route Handlers, image optimization via `next/image`, and more) and also explicitly by the user code.
+Author: Jayrobert77 — https://github.com/Jayrobert77
 
-Implicit usage means you're using any Next.js functionality and everything "just works" when deployed - all the plumbing is done for you. Explicit usage is framework-agnostic and typically provides more features than what Next.js exposes.
+This repository contains the API implementation and related files.
 
-## Deploying to Netlify
+Ownership and provenance:
+See OWNERSHIP.md for a signed, time-stamped ownership statement and verification instructions.
 
-This site requires [Netlify Next Runtime v5](https://docs.netlify.com/frameworks/next-js/overview/) for full functionality. That version is now being gradually rolled out to all Netlify accounts.
+To run:
+1. Clone: git clone https://github.com/Jayrobert77/thothscribe
+2. Install dependencies and follow the repo-specific instructions in CONTRIBUTING.md or package manifests.
 
-After deploying via the button below, please visit the **Site Overview** page for your new site to check whether it is already using the v5 runtime. If not, you'll be prompted to opt-in to to v5.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/next-platform-starter)
-
-## Developing Locally
-
-1. Clone this repository, then run `npm install` in its root directory.
-
-2. For the starter to have full functionality locally (e.g. edge functions, blob store), please ensure you have an up-to-date version of Netlify CLI. Run:
-
-```
-npm install netlify-cli@latest -g
-```
-
-3. Link your local repository to the deployed Netlify site. This will ensure you're using the same runtime version for both local development and your deployed site.
-
-```
-netlify link
-```
-
-4. Then, run the Next.js development server via Netlify CLI:
-
-```
-netlify dev
-```
-
-If your browser doesn't navigate to the site automatically, visit [localhost:8888](http://localhost:8888).
+License: See LICENSE (MIT recommended).

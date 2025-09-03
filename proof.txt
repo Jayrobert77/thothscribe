@@ -1,0 +1,3 @@
+I, Jayrobert77, assert ownership of this repository: https://github.com/Jayrobert77/thothscribe
+
+(Sign this file locally with your GPG key and create a signed commit or signed tag. See CONTRIBUTING.md and OWNERSHIP.md for instructions.)
